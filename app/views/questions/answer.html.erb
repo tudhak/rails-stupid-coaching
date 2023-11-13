@@ -1,0 +1,23 @@
+<h1 class="m-3">Stupid Coaching</h1>
+
+<div class="row">
+  <div class="col-4 m-3">
+    <div class="p-3 pb-1 interaction-box">
+      <p class="lead mb-4"><%= @question %></p>
+      <p class="blockquote-footer">You</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4 m-3">
+    <div class="p-3 pb-1 interaction-box coach-answer">
+      <p class="lead mb-4"><strong><%= @answer %></strong></p>
+      <p class="blockquote-footer">Your Coach</p>
+    </div>
+  </div>
+</div>
+
+<div class="ps-3">
+  <%= link_to 'Ask another question', ask_path, class:"new-question" %>
+</div>

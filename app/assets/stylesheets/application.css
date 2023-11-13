@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+.new-question:link, .new-question:visited {
+  text-decoration: none;
+}
+
+.new-question:hover, .new-question:active {
+  color: #B1D0DF;
+}
+
+.coach-answer {
+  background-color: #FFFEEB;
+}
+
+.interaction-box {
+  border-left: 6px solid #DDDDDD;
+}
